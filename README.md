@@ -8,3 +8,13 @@ nessus扫描器结果csv转为txt
 python3 csv_txt.py host.txt
 
 ![image](https://github.com/Cx330Lm/csv_txt/assets/88574852/153aec09-61cb-4837-9063-75f8015dac5a)
+
+# 打包为exe可执行文件
+
+首先安装pyinstaller
+
+pip3 install pyinstaller
+
+打包命令(运行成功后exe文件在dist目录下)
+
+pyinstaller -F -w csv_txt.py
